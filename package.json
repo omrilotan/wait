@@ -1,6 +1,6 @@
 {
   "name": "@lets/wait",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "⏲ A promising wait function",
   "keywords": [
     "wait",
@@ -23,6 +23,7 @@
   "scripts": {
     "prepublishOnly": "npm run build",
     "build": "rollup index.js --file dist/index.js --format cjs",
+    "postbuild": "echo '{\"type\":\"commonjs\"}' > dist/package.json",
     "test": "mocha"
   },
   "devDependencies": {

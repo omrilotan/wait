@@ -3,7 +3,7 @@
 ## ⏲ A promising wait function
 
 ```js
-const wait = require('@lets/wait');
+import wait from '@lets/wait';
 
 ...
 await wait(200);
