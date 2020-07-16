@@ -14,15 +14,3 @@ Or as a promise
 ```js
 wait(200).then(...);
 ```
-
-seconds
-```js
-# Seconds
-wait.s(2) // Acceptable: s, second, seconds
-
-# Minutes
-wait.m(2) // Acceptable: m, minute, minutes
-
-# Hours
-wait.h(2) // Acceptable: h, hour, hours
-```
